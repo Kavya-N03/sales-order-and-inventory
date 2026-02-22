@@ -67,7 +67,7 @@ export const deleteProduct=async(id)=>{
 
 //INVENTORY API
 export const getInventory=async()=>{
-  const response = await fetch(`${BASE_URL}inventory`,{
+  const response = await fetch(`${BASE_URL}inventory/`,{
     method:"GET",
     headers:{
       "Content-Type":"application/json"
