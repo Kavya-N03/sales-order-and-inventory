@@ -11,4 +11,6 @@ pyvenv.cfg
 .venv
 .env
 venv/
+__pycache__/
+*.pyc
 pip-selfcheck.json
