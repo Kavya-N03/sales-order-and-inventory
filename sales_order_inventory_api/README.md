@@ -46,7 +46,9 @@ It includes full order workflow handling, stock validation, automatic price calc
 ```bash
 # Clone the repository
 git clone https://github.com/Kavya-N03/sales-order-and-inventory.git
-cd your-repo
+cd sales-order-and-inventory 
+cd sales_order_inventory_api   #(backend)
+cd sales_order_inventory_frontend #(frontend)
 
 # Create virtual environment
 python -m venv venv
