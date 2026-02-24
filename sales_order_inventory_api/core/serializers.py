@@ -21,7 +21,7 @@ class OrderItemSerializer(serializers.ModelSerializer):
         model = OrderItem
         fields = ["id", "product","product_name",
                   "quantity", "unit_price", "line_total"]
-        read_only_fields = ["product_id", "product_name", "unit_price", "line_total"]
+        read_only_fields = ["product_name", "unit_price", "line_total"]
         
     
 class OrderSerializer(serializers.ModelSerializer):
